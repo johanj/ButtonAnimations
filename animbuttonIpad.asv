@@ -1,0 +1,380 @@
+<gui>
+  <properties>
+    <project>animbuttonIpad</project>
+    <designer>
+    </designer>
+    <size>
+      <portrait width="768" height="1024" />
+      <landscape width="1024" height="768" />
+    </size>
+    <imagefolder>
+    </imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="Ipad">885713550715F33618A50EA0D068E1DC</device>
+    </devices>
+  </properties>
+  <themes>
+    <theme type="button" name=".btn[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 1px; color: White; font-size: 16px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_green.png); text-shadow: rgba(0,0,0,1) 0px 1px 1px; color: White; font-size: 16px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy1[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy1[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_copy[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 1px; color: White; font-size: 16px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_copy[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_green.png); text-shadow: rgba(0,0,0,1) 0px 1px 1px; color: White; font-size: 16px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy2[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_blue.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".rnd_copy2[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".ball[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(tennis-ball.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".ball[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".football[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(ball.png); text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".football[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(btn_rnd_green.png); text-shadow: rgba(255,255,255,0.78) 0px 1px 0px; color: Black; font-size: 14px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cover_front[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_poster_v4.png);  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #80FF80; color: #393939; font-size: 20px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cover_front[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_poster_v4.png);  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #80FF80; color: #393939; font-size: 20px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cover_back[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Tracklist_v4.png);  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #FFFFFF; color: #393939; font-size: 20px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cover_back[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Tracklist_v4.png);  filter: Alpha(Opacity=100); -moz-opacity:1; opacity: 1; background-color: #FFFFFF; color: #393939; font-size: 20px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="background" name=".default_theme"><![CDATA[ background-image: url(bg_landscape.png); background-repeat: no-repeat;]]></theme>
+    <theme type="button" name=".toggle_button[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Settings_ON_OFF_button_SLIDER.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".toggle_button[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Settings_ON_OFF_button_SLIDER.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".blank[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".blank[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".toggle_button_handle[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Settings_ON_OFF_button_HANDLE.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".toggle_button_handle[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Settings_ON_OFF_button_HANDLE.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".playList[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_Playlist_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".playList[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".shuffle[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_shuffle_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".shuffle[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".addPlayList[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_Add2Playlist_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".addPlayList[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".repeat[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_repeat_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".repeat[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".skipBack[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_skipback_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".skipBack[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".skipForward[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_skipforward_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".skipForward[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".fastForward[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_FF_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".fastForward[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".reverse[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_rew_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".reverse[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".stop[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_stop_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".stop[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".play[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(Eve_NowPlayingMusic_Button_Play_v4.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".play[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(blank.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".HeadLine"><![CDATA[ color: Black; font-size: 14px; font-family: 'Arial'; text-align: center; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".textField"><![CDATA[ color: Black; font-size: 16px; font-family: 'Arial'; text-align: left; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".textField_white"><![CDATA[ color: White; font-size: 16px; font-family: 'Arial'; text-align: left; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+  </themes>
+  <scripts>
+    <script name="buttonanim.js" />
+  </scripts>
+  <page name="Startup" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="default_theme">
+      <btn j="8" x="214" y="106" w="64" h="64" t="ball" flip="None" sim="0" l="0" s="1" js="Anims.drop(join,6)">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="9" x="815" y="65" w="128" h="128" t="football" flip="None" sim="0" l="0" s="1" js="Anims.drop(join, 6)">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="0" x="10" y="50" w="100" h="35" t="btn" flip="Transitions" sim="0" l="0" s="1">
+        <inactive s="0">Transitions</inactive>
+        <active s="0">Transitions</active>
+      </btn>
+      <btn j="0" x="10" y="172" w="100" h="50" t="btn" flip="RelativeCoordinates" sim="0" l="0" s="1">
+        <inactive s="0">Relative coordinates</inactive>
+        <active s="0">Relative coordinates</active>
+      </btn>
+      <btn j="0" x="10" y="131" w="100" h="35" t="btn" flip="Buttons" sim="0" l="0" s="1">
+        <inactive s="0">Buttons</inactive>
+        <active s="0">Buttons</active>
+      </btn>
+      <btn j="0" x="10" y="229" w="100" h="50" t="btn" flip="MusicCover2" sim="0" l="0" s="1">
+        <inactive s="0">Music Cover2</inactive>
+        <active s="0">Music Cover2</active>
+      </btn>
+      <btn j="0" x="10" y="90" w="100" h="35" t="btn" flip="MusicCover" sim="0" l="0" s="1">
+        <inactive s="0">Music Cover</inactive>
+        <active s="0">Music Cover</active>
+      </btn>
+    </landscape>
+  </page>
+  <page name="Transitions" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="default_theme">
+      <btn j="0" x="11" y="30" w="100" h="35" t="btn" flip="Startup" sim="0" l="0" s="1">
+        <inactive s="0">Back</inactive>
+        <active s="0">Back</active>
+      </btn>
+      <btn j="0" x="10" y="170" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;moveIn&quot;, &quot;fromLeft&quot;)">
+        <inactive s="0">Left</inactive>
+        <active s="0">Left</active>
+      </btn>
+      <txt j="0" x="10" y="145" w="100" h="25" t="HeadLine" wrap="False" l="0">Transition In</txt>
+      <txt j="0" x="120" y="145" w="100" h="25" t="HeadLine" wrap="False" l="0">Transition Out</txt>
+      <btn j="0" x="10" y="200" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;moveIn&quot;, &quot;fromBottom&quot;)">
+        <inactive s="0">Bottom</inactive>
+        <active s="0">Bottom</active>
+      </btn>
+      <btn j="0" x="10" y="230" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;moveIn&quot;, &quot;fromRight&quot;)">
+        <inactive s="0">Right</inactive>
+        <active s="0">Right</active>
+      </btn>
+      <btn j="0" x="10" y="260" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;moveIn&quot;, &quot;fromTop&quot;)">
+        <inactive s="0">Top</inactive>
+        <active s="0">Top</active>
+      </btn>
+      <btn j="0" x="10" y="290" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;reveal&quot;)">
+        <inactive s="0">Reveal</inactive>
+        <active s="0">Reveal</active>
+      </btn>
+      <btn j="0" x="120" y="170" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;push&quot;, &quot;fromLeft&quot;)">
+        <inactive s="0">Left</inactive>
+        <active s="0">Left</active>
+      </btn>
+      <btn j="0" x="120" y="200" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;push&quot;, &quot;fromBottom&quot;)">
+        <inactive s="0">Bottom</inactive>
+        <active s="0">Bottom</active>
+      </btn>
+      <btn j="0" x="120" y="230" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;push&quot;, &quot;fromRight&quot;)">
+        <inactive s="0">Right</inactive>
+        <active s="0">Right</active>
+      </btn>
+      <btn j="0" x="120" y="260" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;push&quot;, &quot;fromTop&quot;)">
+        <inactive s="0">Top</inactive>
+        <active s="0">Top</active>
+      </btn>
+      <btn j="0" x="120" y="290" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;fade&quot;)">
+        <inactive s="0">Fade</inactive>
+        <active s="0">Fade</active>
+      </btn>
+      <btn j="0" x="10" y="320" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.0, &quot;moveIn&quot;, &quot;pop&quot;)">
+        <inactive s="0">Pop</inactive>
+        <active s="0">Pop</active>
+      </btn>
+      <btn j="0" x="120" y="320" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.0, &quot;push&quot;, &quot;pop&quot;)">
+        <inactive s="0">Pop</inactive>
+        <active s="0">Pop</active>
+      </btn>
+      <btn j="0" x="10" y="350" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;moveIn&quot;, &quot;spin&quot;)">
+        <inactive s="0">Spin</inactive>
+        <active s="0">Spin</active>
+      </btn>
+      <btn j="0" x="120" y="350" w="100" h="25" t="btn" flip="None" sim="1" l="0" s="1" js="Anims.transition(&quot;d500&quot;, 0.5, &quot;push&quot;, &quot;spin&quot;)">
+        <inactive s="0">Spin</inactive>
+        <active s="0">Spin</active>
+      </btn>
+      <txt j="0" x="167" y="28" w="671" h="84" t="textField" wrap="True" l="0">All in and out animations can be mixed in any way. E.g. an object can use a "Transition Out" to the Left followed by a "Transition In" to the right.  Also, the default CF transition animations has been expanded with a few new animations (pop, spin) </txt>
+      <subpage name="front" x="407" y="216" j="500" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="1" v="1" l="0" />
+    </landscape>
+  </page>
+  <page name="RelativeCoordinates" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="default_theme">
+      <btn j="7" x="185" y="388" w="150" h="50" t="btn" flip="None" sim="0" l="0" s="1" js="Anims.cornersAndSides(join, 10)">
+        <inactive s="0">Corners &amp; Sides</inactive>
+        <active s="0">Corners &amp; Sides</active>
+      </btn>
+      <btn j="10" x="706" y="126" w="150" h="50" t="btn" flip="None" sim="0" l="0" s="1" js="Anims.circle(join, 4)">
+        <inactive s="0">Circle</inactive>
+        <active s="0">Circle</active>
+      </btn>
+      <btn j="0" x="11" y="30" w="100" h="35" t="btn" flip="Startup" sim="0" l="0" s="1">
+        <inactive s="0">Back</inactive>
+        <active s="0">Back</active>
+      </btn>
+      <txt j="0" x="148" y="29" w="652" h="84" t="textField_white" wrap="True" l="0">These animations show the use of relativ coordinates and different anchor points. The coordinates in the "Corners &amp; Sides" animation has only given values for x and y of 0, 0.5 and 1. The anchor point is changed so the object is always on the page. </txt>
+    </landscape>
+  </page>
+  <page name="Buttons" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="default_theme">
+      <btn j="101" x="262" y="150" w="172" h="28" t="toggle_button" flip="None" sim="0" l="0" s="1">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <img x="300" y="150" w="172" h="28" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">Settings_ON_OFF_button_MASK.png</img>
+      <btn j="101" x="262" y="150" w="172" h="28" t="toggle_button_handle" flip="None" sim="0" l="0" s="1">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="0" x="350" y="151" w="98" h="25" t="blank" flip="None" sim="0" l="0" s="1" js="Anims.slide(&quot;d101&quot;, 38, 0.2)">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="0" x="11" y="30" w="100" h="35" t="btn" flip="Startup" sim="0" l="0" s="1">
+        <inactive s="0">Back</inactive>
+        <active s="0">Back</active>
+      </btn>
+      <btn j="30" x="652" y="139" w="54" h="52" t="playList" flip="None" sim="0" l="0" s="1" js="Anims.rotate(&quot;d30&quot;, 0.5)">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="40" x="754" y="138" w="172" h="49" t="play" flip="None" sim="0" l="0" s="1">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" js="Anims.schrink(&quot;d40&quot;, 0.05)" />
+            <release delay="0" js="Anims.defaultState(&quot;d40&quot;,0.05)" />
+          </action>
+        </actions>
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <txt j="0" x="148" y="29" w="652" h="84" t="textField_white" wrap="True" l="0">Button animations.
+-Slide absolute pixel values along x-axis
+-rotate 360 degrees
+-schrink when pressed and default state when released</txt>
+    </landscape>
+  </page>
+  <page name="MusicCover2" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait />
+    <landscape t="default_theme">
+      <btn j="114" x="745" y="50" w="100" h="100" t="cover_back" flip="None" sim="0" l="0" s="1" js="Anims.flipToCenter(&quot;d115&quot;,&quot;d114&quot;,0.7)">
+        <inactive s="0">!BACK!</inactive>
+        <active s="0">!BACK!</active>
+      </btn>
+      <btn j="115" x="745" y="50" w="100" h="100" t="cover_front" flip="None" sim="0" l="0" s="1" js="Anims.flipToCenter(&quot;d114&quot;,&quot;d115&quot;,0.7)">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <btn j="0" x="11" y="30" w="100" h="35" t="btn" flip="Startup" sim="0" l="0" s="1">
+        <inactive s="0">Back</inactive>
+        <active s="0">Back</active>
+      </btn>
+      <txt j="0" x="148" y="29" w="652" h="84" t="textField_white" wrap="True" l="0">This animation is not comlete yet. I want to mimic the default ipad music cover animation. The flip shold be faster...</txt>
+    </landscape>
+  </page>
+  <page name="MusicCover" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait t="default_theme" />
+    <landscape>
+      <subpage name="NowPlaying" x="0" y="0" j="0" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="1" topmost="0" v="1" l="0" />
+      <btn j="0" x="16" y="16" w="153" h="32" t="btn" flip="Startup" sim="0" l="0" s="1">
+        <inactive s="0">Home</inactive>
+        <active s="0">Home</active>
+      </btn>
+      <txt j="0" x="199" y="31" w="671" h="84" t="textField_white" wrap="True" l="0">Pressed state buttons in background image for faster desing of buttons. Spinning cover animation required dumy images between cover and background image. 12 1x1 pixel fully transparent images placed at left corner are used. In other case the cover get lower z-values during the animation than the background image.</txt>
+    </landscape>
+  </page>
+  <subpage name="NowPlaying" w="1024" h="768" clip="0">
+    <img x="0" y="0" w="1024" h="768" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">Eve_NowPlayingMusic_Panel_pressed_v4.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <img x="0" y="0" w="1" h="1" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">blank.png</img>
+    <btn j="44" x="94" y="246" w="305" h="305" t="cover_back" flip="None" sim="0" l="0" s="1" js="Anims.flip(&quot;d45&quot;,&quot;d44&quot;,0.7)">
+      <inactive s="0">!BACK!</inactive>
+      <active s="0">!BACK!</active>
+    </btn>
+    <btn j="45" x="94" y="246" w="305" h="305" t="cover_front" flip="None" sim="0" l="0" s="1" js="Anims.flip(&quot;d44&quot;,&quot;d45&quot;,0.7)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="452" y="337" w="54" h="52" t="playList" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="442" y="420" w="77" h="64" t="shuffle" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="452" y="260" w="54" h="52" t="addPlayList" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="442" y="486" w="77" h="64" t="repeat" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="554" y="434" w="77" h="49" t="skipBack" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="840" y="434" w="77" h="49" t="skipForward" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="839" y="500" w="77" h="49" t="fastForward" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="554" y="500" w="77" h="49" t="reverse" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="744" y="500" w="77" h="49" t="stop" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="649" y="434" w="172" h="49" t="play" flip="None" sim="1" l="0" s="1">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="front" w="305" h="305" clip="1">
+    <img x="0" y="0" w="305" h="305" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">Eve_NowPlayingMusic_poster_v4.png</img>
+    <btn j="0" x="0" y="0" w="304" h="304" t="blank" flip="None" sim="0" l="0" s="1" js="Anims.flip(&quot;d240&quot;,&quot;d250&quot;,5)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="back" w="305" h="305" clip="1">
+    <img x="0" y="0" w="305" h="305" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">Eve_NowPlayingMusic_Tracklist_v4.png</img>
+    <btn j="0" x="0" y="0" w="304" h="304" t="blank" flip="None" sim="0" l="0" s="1" js="Anims.flip(&quot;d250&quot;,&quot;d240&quot;,5)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+</gui>
